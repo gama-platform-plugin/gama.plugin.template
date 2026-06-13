@@ -1,6 +1,12 @@
 # ⚠️ This is a template repo — follow the steps below before writing any code
 
-## Step 1 — Run the initialization workflow
+
+## Step 0 - fork the template
+
+Before doing anything, do not work on the original template repository, you must first fork it into your own repositories (or this organisation if you have the rights).
+Find an appropriate name for the forked repository that will match the name of the plugin.
+
+## Step 1 - Run the initialization workflow
 
 Go to **Actions → Initialize plugin from template → Run workflow** and fill in:
 
