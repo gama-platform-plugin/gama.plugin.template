@@ -1,10 +1,13 @@
 # ⚠️ This is a template repo — follow the steps below before writing any code
 
 
-## Step 0 - fork the template
+## Step 0 - Use the this project template
 
-Before doing anything, do not work on the original template repository, you must first fork it into your own repositories (or this organisation if you have the rights).
-Find an appropriate name for the forked repository that will match the name of the plugin.
+Don't work directly in this repository — it's a *Project Template*. Instead, click the green **Use this template** button at the top of the page and choose **Create a new repository**.
+
+<img width="1376" height="380" alt="screenshot" src="https://github.com/user-attachments/assets/247e4bc2-47b4-4318-9d85-a825bb719805" />
+
+GitHub will create a fresh copy of this repository under your own account (or under an organisation, if you have the necessary permissions). Give it a name that matches the plugin you're about to build (for example `gama.plugin.flooding`).
 
 ## Step 1 - Run the initialization workflow
 
