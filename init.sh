@@ -64,6 +64,8 @@ sed -i \
 
 sed -i "s/gama\.plugin\.MY_PLUGIN/$PLUGIN_ID/g" "$PLUGIN_ID/pom.xml"
 
+sed -i "s/MY_PLUGIN/$PLUGIN_ID/g" "$PLUGIN_ID/.project"
+
 # ── 3. Rename Java skill (package dir + class name) ─────────────────────────
 echo "Renaming Java skill..."
 mkdir -p "$PLUGIN_ID/src/$PACKAGE_PATH"
@@ -87,6 +89,8 @@ sed -i \
     "$FEATURE_ID/feature.xml"
 
 sed -i "s/gama\.plugin\.feature\.MY_PLUGIN/$FEATURE_ID/g" "$FEATURE_ID/pom.xml"
+
+sed -i "s/MY_PLUGIN.feature/$FEATURE_ID/g" "$FEATURE_ID/.project"
 
 # ── 5. Parent POM modules ────────────────────────────────────────────────────
 echo "Updating parent/pom.xml modules..."
