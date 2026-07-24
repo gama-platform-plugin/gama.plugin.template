@@ -21,7 +21,7 @@ public class MySkill extends Skill {
 
 	@action(name = "my_action")
 	@doc("Sample action — replace or remove.")
-	public Object myAction(final gama.core.runtime.IScope scope) {
+	public Object myAction(final IScope scope) {
 		// TODO: implement
 		return null;
 	}
