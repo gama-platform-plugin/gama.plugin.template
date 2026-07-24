@@ -1,9 +1,10 @@
 package gama.plugin.MY_PLUGIN;
 
-import gama.annotations.precompiler.GamaAnnotations.action;
-import gama.annotations.precompiler.GamaAnnotations.doc;
-import gama.annotations.precompiler.GamaAnnotations.skill;
-import gama.gaml.skills.Skill;
+import gama.annotations.action;
+import gama.annotations.doc;
+import gama.annotations.skill;
+import gama.api.kernel.skill.Skill;
+import gama.api.runtime.scope.IScope;
 
 /**
  * Entry point for your GAML skill.
@@ -20,7 +21,7 @@ public class MySkill extends Skill {
 
 	@action(name = "my_action")
 	@doc("Sample action — replace or remove.")
-	public Object myAction(final gama.core.runtime.IScope scope) {
+	public Object myAction(final IScope scope) {
 		// TODO: implement
 		return null;
 	}
